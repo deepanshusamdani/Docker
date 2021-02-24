@@ -25,6 +25,7 @@
 #3. docker build -t 'name:tag' .	# to build the docker image
 #4. docker run -it --rm -'name:tag'	# to see the container/program's output
 #5. docker context ls			# to check on instance is running
+#6. docker rmi -f <imaage-id>		# to remove the existing image
 
 
 ######################################################################################################################
