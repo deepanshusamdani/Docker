@@ -6,3 +6,7 @@ Step2: create the code, of which you want to buid the image in docker
 Step3: NOTE: Your repo's branch name should be "master" only not even the "main" works.
 Step4: while building the docker image make sure the github url must have the ".git" exntension before the repo name.
 Step5: rest of the steps are similar follow the "docker_guide_v1"
+
+####################### if you build the docker imahe bu using the folder inside the git repo folder#####
+-> sudo docker build -t cod:py https://github.com/deepanshusamdani/docker25feb.git\#day1:code
+
