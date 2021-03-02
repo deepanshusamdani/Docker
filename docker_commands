@@ -1,0 +1,16 @@
+############################# Basic Docker commands #############################
+
+#1.  docker Pull python 			             # pulling image from Docker HUB
+#2.  docker run <'imagename'> 		         # to run any image
+#3.  docker build -t 'name:tag' .	         # to build the docker image
+#4.  docker run -it --rm -'name:tag'	     # to see the container/program's output
+#5.  docker context ls			               # to check on instance is running
+#6.  docker rmi -f <imaage-id>		         # to remove the existing image
+#7.  docker top <ContainerID>              # to see the top processes within a container.
+#8.  docker stop <ContainerID>             # to  stop a running container.
+#9.  docker rm <ContainerID>               # to delete a container
+#10. docker stats <ContainerID>            # provide the statistics of a running container.
+#11. docker pause <ContainerID>            # is used to pause the processes in a running container.
+#12. docker unpause <ContainerID>          # is used to unpause the processes in a running container.
+#13. docker kill <ContainerID>             # to kill the processes in a running container
+
