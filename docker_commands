@@ -14,3 +14,7 @@
 #12. docker unpause <ContainerID>          # is used to unpause the processes in a running container.
 #13. docker kill <ContainerID>             # to kill the processes in a running container
 
+#Pushing image to docerHub
+1. docker login
+2. docker tag <ImageID> <dockerHubUser>/<repoName>:<anyTagName>
+3. docker push <dockerHubUser>/<repoName>
